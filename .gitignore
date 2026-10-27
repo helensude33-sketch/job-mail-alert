@@ -6,3 +6,4 @@ token.json
 *.db
 __pycache__/
 .pytest_cache/
+seen_ids.json

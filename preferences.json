@@ -1,0 +1,7 @@
+{
+  "topic_words": ["intern", "internship", "job", "role", "vacancy", "vacancies",
+                  "hiring", "position", "developer", "engineer", "assistant", "işe alım"],
+  "wanted_words": ["part-time", "part time", "student", "internship", "intern"],
+  "blocked_words": ["full-time", "full time", "freelance", "self-employed", "contractor",
+                    "commission", "unpaid", "training course", "senior", "phd"]
+}
