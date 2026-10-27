@@ -4,7 +4,11 @@ from google.oauth2.credentials import Credentials #reads the saved token
 from google_auth_oauthlib.flow import InstalledAppFlow #on first login opens the browser and gets permission
 from googleapiclient.discovery import build #creates the ready remote control to talk to the gmail API
 
-SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"] #mail read permission requested from google
+ #mail read permission requested from google
+SCOPES = [
+    "https://www.googleapis.com/auth/gmail.readonly",
+    "https://www.googleapis.com/auth/gmail.send",
+]
 
 def get_gmail_service():
     creds = None #we don't have login info
